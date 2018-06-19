@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F21CCC6F20D57E2300149C27 /* chainsaw.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21CCC6C20D57E2300149C27 /* chainsaw.wav */; };
+		F21CCC7020D57E2300149C27 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21CCC6D20D57E2300149C27 /* jump.wav */; };
+		F21CCC7120D57E2300149C27 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F21CCC6E20D57E2300149C27 /* background.mp3 */; };
 		F235E5E320C85E4200EA6A3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235E5E220C85E4200EA6A3D /* AppDelegate.swift */; };
 		F235E5E520C85E4200EA6A3D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F235E5E420C85E4200EA6A3D /* art.scnassets */; };
 		F235E5E720C85E4200EA6A3D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235E5E620C85E4200EA6A3D /* GameViewController.swift */; };
 		F235E5EA20C85E4200EA6A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F235E5E820C85E4200EA6A3D /* Main.storyboard */; };
 		F235E5EC20C85E4200EA6A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F235E5EB20C85E4200EA6A3D /* Assets.xcassets */; };
 		F235E5EF20C85E4200EA6A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F235E5ED20C85E4200EA6A3D /* LaunchScreen.storyboard */; };
-		F2934CA320C86D8300B10765 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F2934CA220C86D8300B10765 /* Sounds */; };
 		F2934CA620C86DBF00B10765 /* MotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2934CA520C86DBF00B10765 /* MotionHelper.swift */; };
 		F2934CA820C86DDD00B10765 /* VectorOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2934CA720C86DDD00B10765 /* VectorOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F21CCC6C20D57E2300149C27 /* chainsaw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = chainsaw.wav; path = ../../../../Downloads/HitTheTreeStart/HitTheTree/Sounds/chainsaw.wav; sourceTree = "<group>"; };
+		F21CCC6D20D57E2300149C27 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = jump.wav; path = ../../../../Downloads/HitTheTreeStart/HitTheTree/Sounds/jump.wav; sourceTree = "<group>"; };
+		F21CCC6E20D57E2300149C27 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = background.mp3; path = ../../../../Downloads/HitTheTreeStart/HitTheTree/Sounds/background.mp3; sourceTree = "<group>"; };
 		F235E5DF20C85E4200EA6A3D /* BallGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F235E5E220C85E4200EA6A3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F235E5E420C85E4200EA6A3D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -27,7 +32,6 @@
 		F235E5EB20C85E4200EA6A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F235E5EE20C85E4200EA6A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F235E5F020C85E4200EA6A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2934CA220C86D8300B10765 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		F2934CA520C86DBF00B10765 /* MotionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionHelper.swift; sourceTree = "<group>"; };
 		F2934CA720C86DDD00B10765 /* VectorOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F21CCC6520D57DB500149C27 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F21CCC6E20D57E2300149C27 /* background.mp3 */,
+				F21CCC6C20D57E2300149C27 /* chainsaw.wav */,
+				F21CCC6D20D57E2300149C27 /* jump.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		F235E5D620C85E4200EA6A3D = {
 			isa = PBXGroup;
 			children = (
@@ -62,8 +76,8 @@
 		F235E5E120C85E4200EA6A3D /* BallGame */ = {
 			isa = PBXGroup;
 			children = (
+				F21CCC6520D57DB500149C27 /* Sounds */,
 				F2934CA420C86DAA00B10765 /* Helper */,
-				F2934CA220C86D8300B10765 /* Sounds */,
 				F235E5E220C85E4200EA6A3D /* AppDelegate.swift */,
 				F235E5E420C85E4200EA6A3D /* art.scnassets */,
 				F235E5E620C85E4200EA6A3D /* GameViewController.swift */,
@@ -143,10 +157,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2934CA320C86D8300B10765 /* Sounds in Resources */,
+				F21CCC7020D57E2300149C27 /* jump.wav in Resources */,
 				F235E5E520C85E4200EA6A3D /* art.scnassets in Resources */,
 				F235E5EF20C85E4200EA6A3D /* LaunchScreen.storyboard in Resources */,
 				F235E5EC20C85E4200EA6A3D /* Assets.xcassets in Resources */,
+				F21CCC6F20D57E2300149C27 /* chainsaw.wav in Resources */,
+				F21CCC7120D57E2300149C27 /* background.mp3 in Resources */,
 				F235E5EA20C85E4200EA6A3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
